@@ -1,0 +1,25 @@
+* {
+    font-family: Roboto;
+    ;
+}
+
+h5 {
+    font-size: 40px !important;
+    font-weight: 900;
+}
+
+header img {
+    width: 150px;
+}
+
+.fondo{
+    background-image: url("../../assets/img/fondo.webp");
+background-color: rgba(240, 197, 197, 0.719);
+background-blend-mode: overlay}
+
+#canvas{
+    width: 50%;
+}
+@media screen and (max-width:767px) {
+ #canvas {width: 90%;}   
+}
