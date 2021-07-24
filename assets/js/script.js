@@ -52,7 +52,7 @@ $("document").ready(function () {
 
             //   Escritura de la informacion en html
                 $("#info").html(`
-<div class="card col-12 mx-4" >
+<div class="card col-xl-12 col-sm-6 mx-4 border-success" >
   <img src="${imagenHero}" class="card-img-top" alt="${nombreHero}" style="height: 300px">
   <div class="card-body">
     <h5 class="card-title text-center">${nombreHero}</h5>
@@ -71,13 +71,13 @@ $("document").ready(function () {
         animationEnabled: true,
         title:{
             text: `Tabla de Habilidades de ${nombreHero}`,
-            horizontalAlign: "left"
+            horizontalAlign: "center"
         },
         data: [{
             type: "doughnut",
-            startAngle: 60,
+            startAngle: 40,
             //innerRadius: 60,
-            indexLabelFontSize: 17,
+            indexLabelFontSize: 14,
             indexLabel: "{label} - {y} ",
             toolTipContent: "<b>{label}:</b> {y}",
             dataPoints: [
